@@ -3,7 +3,8 @@ const path = require('path')
 const app = express()
 app.use('/', express.static(path.join(__dirname, 'public')))
 
+const thisIsTestChange = "new"
+var testData = 5
 
-var testdata = 35;
 app.listen(8888)
 
